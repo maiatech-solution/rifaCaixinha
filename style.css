@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #008080;
+    color: white;
+    gap: 20px;
+}
+
+textarea{
+    min-height: 250px;
+    min-width: 350px;
+    max-width: 450px;
+    max-height: 300px;
+    padding: 5px;
+    margin-bottom: 30px
+}
+
+button{
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid white;
+    background-color: white;
+    color: #008080;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover{
+    background-color: #008080 ;
+    color: white;
+    cursor: pointer;
+}
+
+#resultado{
+    font-size: 30px;
+    color: #008080;
+}
+
+#ganhadores{
+    font-size:40px;
+}
+
+#quadro{
+    background-color: white;
+    padding:10px;
+    border: 1px dotted  black;
+}
+
+.active{
+    display: none;
+}

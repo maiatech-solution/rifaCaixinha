@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="./dados.js" defer></script>
+    <title>Seleção de times</title>
+</head>
+
+<body>
+    <h1 id="title-sort">RIFA DA CAIXINHA - 2024</h1>
+
+    <div class="textA">
+        <textarea name="emb" id="emb" placeholder="Cole aqui os números sorteados do jogo do Bicho"></textarea>
+    </div>
+
+    <div class="but-embaralhar" id="create1">
+        <button onclick="verificarNumeros()">Verificar</button>
+    </div>
+
+    <p id="ganhadores"></p>
+    
+    <div id="quadro" class="active">
+        <p id="resultado"></p>
+    </div>
+  
+    
+</body>
+
+</html>
