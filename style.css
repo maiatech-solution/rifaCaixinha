@@ -52,3 +52,7 @@ button:hover{
 .active{
     display: none;
 }
+
+#colaborador{
+    font-size:40px;
+}
