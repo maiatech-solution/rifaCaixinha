@@ -589,7 +589,7 @@
                     if (numeros.includes(numero.substring(1))) {
                         encontrado = true;
                         var nomeColaborador = pessoasRifa[i].colaborador;
-                        resultado += `${contador}. ${nomeColaborador[0].toUpperCase() + nomeColaborador.substring(1)} \n  Centena sorteada: ${numero.substring(1)} \n \n`;
+                        resultado += `${contador}. ${nomeColaborador[0].toUpperCase() + nomeColaborador.substring(1)} -  Centena sorteada: ${numero.substring(1)} \n \n`;
                         contador++; // Incrementando o contador
                         break;
                     }
